@@ -1,0 +1,12 @@
+push x
+push 2 
+push 4 
+pop r1
+pop r2
+DIV r2 ,r1
+push r2
+pop r1
+pop r2
+add r2 ,r1
+push r2
+pop x

@@ -1,0 +1,16 @@
+pop X
+pop Y
+push 1 
+push 3 
+pop r1
+pop r2
+DIV r2 ,r1
+push r2
+pop r1
+pop r2
+add r2 ,r1
+push r2
+pop r1
+pop r2
+SUB r2 ,r1
+push r2
